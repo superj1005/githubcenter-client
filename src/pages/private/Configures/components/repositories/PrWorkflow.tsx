@@ -56,7 +56,7 @@ const PrWorkflow = ({
         pr.number
       );
 
-      console.log(getreview);
+      // console.log(getreview);
       setPrReviewData(getreview.data);
     } catch (error) {
       console.log(error);

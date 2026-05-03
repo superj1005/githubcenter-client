@@ -35,7 +35,7 @@ const RemoveGhDialogBox = ({ghData}:any) => {
       ghUsername: username,
     };
 
-    console.log(reqData);
+    // console.log(reqData);
 
     try {
       const post_data = await apiService.removeGhAccount(reqData);

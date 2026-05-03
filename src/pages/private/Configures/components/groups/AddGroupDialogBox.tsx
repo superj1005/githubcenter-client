@@ -66,7 +66,7 @@ const AddGroupDialogBox = ({ repoOption }: any) => {
       ghUsername:username,
     };
 
-    console.log(data);
+    // console.log(data);
 
     try {
       const post_data = await apiService.createGroupAndAddRepo(reqData);

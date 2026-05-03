@@ -18,7 +18,7 @@ const RepositorySettings = () => {
 
   const [repoLoading, setRepoLoading] = useState<boolean>(true);
   const { addToast } = useToast();
-  console.log(repoLoading)
+  // console.log(repoLoading)
 
   const { user } = useUser();
 
@@ -67,7 +67,7 @@ const RepositorySettings = () => {
 
   const handleSave = async () => {
     try {
-      console.log(selectedRepos);
+      // console.log(selectedRepos);
 
       const postData: SelectRemovePostData = {
         userId,

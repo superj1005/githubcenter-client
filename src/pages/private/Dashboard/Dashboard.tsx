@@ -15,11 +15,13 @@ const Dashboard = () => {
 
   const userId = getLocalStorageItem("userId");
 
+  // console.log("userId", userId)
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         const gh_data = await apiService.getAllGhInfo(userId);
-        console.log(gh_data);
+        // console.log(gh_data);
         setGhData(gh_data?.data);
       } catch (error) {
         console.log(error);

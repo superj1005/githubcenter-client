@@ -165,7 +165,7 @@ const RepositorySelector: React.FC<RepositorySelectorProps> = ({
   );
 
   // console.log(selectedRepos)
-  console.log(removedRepo);
+  // console.log(removedRepo);
 
   return (
     <div className={className}>

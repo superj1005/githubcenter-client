@@ -4,7 +4,7 @@ import { BiSolidCollection } from "react-icons/bi";
 import { useSearchParams } from "react-router-dom";
 
 const AllGroups = ({ groupData }: any) => {
-  console.log(groupData);
+  // console.log(groupData);
 
   const [searchParams, setSearchParams] = useSearchParams();
 
