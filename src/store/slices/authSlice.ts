@@ -40,7 +40,7 @@ const authSlice = createSlice({
     },
     signInSuccess: (state, action: PayloadAction<{ userId: string; token: string; role: string; orgId:string }>) => {
 
-      console.log(action)
+      // console.log(action)
       state.isAuthenticated = true;
       state.userId = action.payload.userId;
       state.authToken = action.payload.token;
@@ -80,7 +80,7 @@ export const signIn =
       // Simulate API call
       const resp:any = await authService.signIn(credentials);
 
-      console.log(resp)
+      // console.log(resp)
 
       setLocalStorageItem("authToken", resp.data.data.token);
       setLocalStorageItem("userId", resp.data.data.userId);

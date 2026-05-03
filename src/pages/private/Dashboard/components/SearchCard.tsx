@@ -95,7 +95,7 @@ const CardGrid: React.FC<CardGridProps> = ({
     });
   }, [cards, searchTerm, loading]);
 
-  console.log(filteredCards);
+  // console.log(filteredCards);
 
   return (
     <div className={`flex flex-col ${className}`}>

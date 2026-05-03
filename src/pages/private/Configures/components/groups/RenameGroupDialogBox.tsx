@@ -41,7 +41,7 @@ const RenameGroupDialogBox = ({groupId, groupName}:{groupId:string | undefined, 
       ghUsername:username,
     };
 
-    console.log(reqData);
+    // console.log(reqData);
 
     try {
       const post_data = await apiService.updateGroup(reqData);

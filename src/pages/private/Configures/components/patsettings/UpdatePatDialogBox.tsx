@@ -46,7 +46,7 @@ const UpdatePatDialogBox = ({
       ghUsername: username,
     };
 
-    console.log(reqData);
+    // console.log(reqData);
     setReqPatData(reqData);
     setIsPatUpdateConfOpen(true);
   };

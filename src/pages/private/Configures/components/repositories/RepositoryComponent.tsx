@@ -73,7 +73,7 @@ const RepositoryComponent = ({
       }
     };
 
-    console.log(userId);
+    // console.log(userId);
 
     // setPrData([
     //   {
@@ -511,7 +511,7 @@ const RepositoryComponent = ({
     // },
   ];
 
-  console.log(prReviewData);
+  // console.log(prReviewData);
 
   return (
     <div className="flex flex-col w-full ">

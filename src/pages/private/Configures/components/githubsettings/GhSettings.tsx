@@ -16,7 +16,7 @@ const GhSettings = () => {
   const [ghLoading, setGhLoading] = useState<boolean>(true);
   // const { addToast } = useToast();
 
-  console.log(ghData);
+  // console.log(ghData);
   const [isGhResetDiaOpen, setIsGhResetDiaOpen] = useState(false);
   const inputGhResetDiaRef = useRef<any>(null);
   const [isGhResetAlrOpen, setIsGhResetAlrOpen] = useState(false);
